@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "types": ["chrome", "node", "vite/client"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "manifest.config.*",
+    "package.json",
+    "vite.config.*",
+    "vite.config.ts",
+    "./src/constants.ts"
+  ]
+}
